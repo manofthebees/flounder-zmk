@@ -1,0 +1,7 @@
+config SHIELD_FLOUNDER_LEFT
+    def_bool $(shields_list_contains,flounder)
+    select SHIELD_FLOUNDER
+
+config SHIELD_FLOUNDER_RIGHT
+    def_bool $(shields_list_contains,flounder)
+    select SHIELD_FLOUNDER 

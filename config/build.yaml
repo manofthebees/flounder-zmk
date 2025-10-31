@@ -1,0 +1,8 @@
+---
+include:
+  - board: nice_nano_v2
+    shield: bumblebee_left
+  - board: nice_nano_v2
+    shield: bumblebee_right
+#  - board: nice_nano_v2
+#    shield: settings_reset

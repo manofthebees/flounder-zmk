@@ -1,0 +1,11 @@
+file_format: "1"
+id: flounder
+name: flounder
+type: shield
+url: https://github.com/manofthebees/flounder-zmk
+requires: [nice_nano_v2]
+features:
+  -keys
+siblings:
+  - flounder_left
+  - flounder_right
