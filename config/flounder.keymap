@@ -65,6 +65,21 @@
             bindings = <&kp DEL>;
             key-positions = <27 28>;
         };
+
+        programming {
+            bindings = <&mo 3>;
+            key-positions = <21 22>;
+        };
+
+        pipe {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <9 19 29>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17 18>;
+        };
     };
 
     keymap {
