@@ -11,9 +11,9 @@
 
 / {
     behaviors {
-        mouse_mode: mouse_mode {
+        tap_hol: tap_hol {
             compatible = "zmk,behavior-hold-tap";
-            label = "MOUSE_MODE";
+            label = "TAP_HOL";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
