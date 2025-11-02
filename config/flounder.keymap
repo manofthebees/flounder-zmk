@@ -23,6 +23,50 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <18 19>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 11 12>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <19 29>;
+        };
+
+        tilde {
+            bindings = <&kp GRAVE>;
+            key-positions = <10 11>;
+        };
+
+        ctrlTab {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <10 20>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <17 18 19>;
+        };
+
+        bluetooth {
+            bindings = <&tog 4>;
+            key-positions = <30 31 32 33>;
+        };
+
+        delete {
+            bindings = <&kp DEL>;
+            key-positions = <27 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
