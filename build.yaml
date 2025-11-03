@@ -4,5 +4,5 @@ include:
     shield: flounder_left
   - board: nice_nano_v2
     shield: flounder_right
-  - board: nice_nano_v2
-    shield: settings_reset
+#  - board: nice_nano_v2
+#    shield: settings_reset
