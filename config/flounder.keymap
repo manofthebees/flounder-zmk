@@ -29,6 +29,7 @@
         dash {
             bindings = <&kp MINUS>;
             key-positions = <18 19>;
+            layers = <0>;
         };
 
         tab {
@@ -102,11 +103,11 @@
 
         alpha {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R           &kp T             &kp Y             &kp U     &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F           &kp G             &kp H             &kp J     &kp K      &kp L    &kp SQT
-&kp Z  &kp X  &kp C  &kp V           &kp B             &kp N             &kp M     &kp COMMA  &kp DOT  &kp FSLH
+&kp Q  &kp W  &kp E  &kp R           &kp T             &kp Y  &kp U     &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D  &kp F           &kp G             &kp H  &kp J     &kp K      &kp L    &kp SQT
+&kp Z  &kp X  &kp C  &kp V           &kp B             &kp N  &kp M     &kp COMMA  &kp DOT  &kp FSLH
 
-                     &kp LEFT_SHIFT  &tap_hol 1 SPACE  &tap_hol 2 ENTER  &kp BSPC
+                     &kp LEFT_SHIFT  &tap_hol 1 SPACE  &mo 2  &kp BSPC
             >;
         };
 
