@@ -132,11 +132,11 @@
 
         programming {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp BSLH      &kp LBKT      &kp RBKT      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LPAR)  &kp LS(RPAR)  &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(PIPE)  &kp LS(LBRC)  &kp LS(RBRC)  &trans
+&trans  &trans  &trans  &trans  &trans  &kp BACKSLASH  &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &kp LS(LPAR)        &kp LS(RPAR)         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp PIPE       &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &trans  &trans
 
-                        &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans         &trans
             >;
         };
 
