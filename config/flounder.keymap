@@ -83,12 +83,12 @@
 
         right_ctrl {
             bindings = <&kp RIGHT_CONTROL>;
-            key-positions = <28 29>;
+            key-positions = <18 17>;
         };
 
         left_ctrl {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <20 21>;
+            key-positions = <11 12>;
         };
     };
 
