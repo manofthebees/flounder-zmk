@@ -90,6 +90,11 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <11 12>;
         };
+
+        misc_trigger {
+            bindings = <&mo 5>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
