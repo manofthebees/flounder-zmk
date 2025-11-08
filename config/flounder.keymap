@@ -35,66 +35,73 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <10 11 12>;
+            layers = <0>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <19 29>;
+            layers = <0>;
         };
 
         tilde {
             bindings = <&kp GRAVE>;
             key-positions = <10 11>;
+            layers = <0>;
         };
 
         ctrlTab {
             bindings = <&kp LC(TAB)>;
             key-positions = <10 20>;
+            layers = <0>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <17 18 19>;
+            layers = <0>;
         };
 
         bluetooth {
             bindings = <&tog 4>;
             key-positions = <30 31 32 33>;
+            layers = <0>;
         };
 
         delete {
             bindings = <&kp DEL>;
             key-positions = <27 28>;
+            layers = <0>;
         };
 
         programming {
             bindings = <&mo 3>;
             key-positions = <21 22>;
-        };
-
-        pipe {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <9 19 29>;
+            layers = <0>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
+            layers = <0>;            
         };
 
         right_ctrl {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <18 17>;
+            layers = <0>;
         };
 
         left_ctrl {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <11 12>;
+            layers = <0>;
         };
 
         misc_trigger {
             bindings = <&mo 5>;
             key-positions = <32 33>;
+            layers = <0>;
         };
     };
 
