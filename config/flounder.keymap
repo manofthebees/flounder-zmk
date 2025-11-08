@@ -80,6 +80,16 @@
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
         };
+
+        right_ctrl {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <28 29>;
+        };
+
+        left_ctrl {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
@@ -91,7 +101,7 @@
 &kp A  &kp S  &kp D  &kp F           &kp G             &kp H             &kp J     &kp K      &kp L    &kp SQT
 &kp Z  &kp X  &kp C  &kp V           &kp B             &kp N             &kp M     &kp COMMA  &kp DOT  &kp FSLH
 
-                     &kp LEFT_SHIFT  &tap_hol 1 SPACE  &tap_hol 2 RCTRL  &kp BSPC
+                     &kp LEFT_SHIFT  &tap_hol 1 SPACE  &tap_hol 2 ENTER  &kp BSPC
             >;
         };
 
