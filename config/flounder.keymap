@@ -160,11 +160,11 @@
 
         misc {
             bindings = <
-&trans     &trans      &trans      &trans             &trans           &trans  &trans  &trans  &trans  &trans
-&kp LG(X)  &kp LGUI    &kp LALT    &kp TAB            &trans           &trans  &trans  &trans  &trans  &trans
-&kp C_PP   &kp C_PREV  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans
+&trans     &trans      &trans      &trans             &trans           &trans          &trans        &trans    &trans           &trans
+&kp LG(X)  &kp LGUI    &kp LALT    &kp TAB            &trans           &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &trans
+&kp C_PP   &kp C_PREV  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans          &trans        &trans    &trans           &trans
 
-                                   &trans             &trans           &trans  &trans
+                                   &trans             &trans           &trans          &trans
             >;
         };
     };
