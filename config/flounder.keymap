@@ -77,7 +77,6 @@
         bluetooth {
             bindings = <&tog 4>;
             key-positions = <30 31 32 33>;
-            layers = <0>;
         };
 
         delete {
