@@ -4,3 +4,4 @@ my [cosmos](https://ryanis.cool/cosmos/) generated split keyboard.
 
 # Keymap:
 ![My keymap](keymap.png)
+*generated using [keymap drawer](https://keymap-drawer.streamlit.app/)*
