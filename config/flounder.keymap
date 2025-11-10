@@ -102,6 +102,12 @@
             key-positions = <32 33>;
             layers = <0>;
         };
+
+        ctrl+bksp {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
     };
 
     keymap {
