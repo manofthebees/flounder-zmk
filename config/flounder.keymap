@@ -75,7 +75,7 @@
         };
 
         bluetooth {
-            bindings = <&tog 4>;
+            bindings = <&tog 5>;
             key-positions = <30 31 32 33>;
         };
 
@@ -98,7 +98,7 @@
         };
 
         misc_trigger {
-            bindings = <&mo 5>;
+            bindings = <&mo 4>;
             key-positions = <32 33>;
             layers = <0>;
         };
@@ -125,11 +125,11 @@
 
         num {
             bindings = <
-&kp N1       &kp N2  &kp N3  &kp N4        &kp N5         &trans    &trans  &trans    &trans     &trans
-&kp N6       &kp N7  &kp N8  &kp N9        &kp N0         &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans
-&bootloader  &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans    &trans  &trans    &trans     &trans
+&kp N1       &kp N2  &kp N3  &kp N4  &kp N5  &trans        &trans         &trans    &trans     &trans
+&kp N6       &kp N7  &kp N8  &kp N9  &kp N0  &kp LEFT      &kp UP         &kp DOWN  &kp RIGHT  &trans
+&bootloader  &trans  &trans  &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans    &trans     &trans
 
-                             &trans        &trans         &trans    &trans
+                             &trans  &trans  &trans        &trans
             >;
         };
 
@@ -145,11 +145,21 @@
 
         programming {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp BACKSLASH  &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &kp LS(LPAR)        &kp LS(RPAR)         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp PIPE       &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp PIPE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
 
                         &trans  &trans  &trans         &trans
+            >;
+        };
+
+        misc {
+            bindings = <
+&trans     &trans      &trans      &trans             &trans           &trans          &trans        &trans    &trans           &kp LC(LA(DELETE))
+&kp LG(X)  &kp LGUI    &kp LALT    &kp TAB            &trans           &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &trans
+&kp C_PP   &kp C_PREV  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans          &trans        &trans    &trans           &trans
+
+                                   &trans             &trans           &trans          &trans
             >;
         };
 
@@ -160,16 +170,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans
 
                         &trans  &trans  &trans        &trans
-            >;
-        };
-
-        misc {
-            bindings = <
-&trans     &trans      &trans      &trans             &trans           &trans          &trans        &trans    &trans           &trans
-&kp LG(X)  &kp LGUI    &kp LALT    &kp TAB            &trans           &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT_ARROW  &trans
-&kp C_PP   &kp C_PREV  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans          &trans        &trans    &trans           &trans
-
-                                   &trans             &trans           &trans          &trans
             >;
         };
     };
