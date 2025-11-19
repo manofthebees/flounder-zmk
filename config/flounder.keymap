@@ -113,6 +113,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <7 8>;
         };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <20 21 22 23>;
+        };
     };
 
     keymap {
