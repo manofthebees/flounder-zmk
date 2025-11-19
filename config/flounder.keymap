@@ -125,15 +125,15 @@
 
         alpha {
             bindings = <
-&kp Q  &kp W                       &kp E  &kp R           &kp T             &kp Y  &kp U     &kp I      &kp O                        &kp P
-&kp A  &tap_hol_kp LEFT_CONTROL S  &kp D  &kp F           &kp G             &kp H  &kp J     &kp K      &tap_hol_kp RIGHT_CONTROL L  &kp SQT
-&kp Z  &kp X                       &kp C  &kp V           &kp B             &kp N  &kp M     &kp COMMA  &kp DOT                      &kp FSLH
+&kp Q  &kp W                       &kp E         &kp R           &kp T             &kp Y  &kp U     &kp I                    &kp O                        &kp P
+&kp A  &tap_hol_kp LEFT_CONTROL S  &tap_hol 1 K  &kp F           &kp G             &kp H  &kp J     &tap_hol_kp RIGHT_ALT K  &tap_hol_kp RIGHT_CONTROL L  &kp SQT
+&kp Z  &kp X                       &kp C         &kp V           &kp B             &kp N  &kp M     &kp COMMA                &kp DOT                      &kp FSLH
 
-                                          &kp LEFT_SHIFT  &tap_hol 1 SPACE  &mo 2  &kp BSPC
+                                                 &kp LEFT_SHIFT  &tap_hol 1 SPACE  &mo 2  &kp BSPC
             >;
         };
 
-        num {
+        numNnav {
             bindings = <
 &kp N1       &kp N2  &kp N3  &kp N4        &kp N5         &trans    &trans  &trans    &trans     &trans
 &kp N6       &kp N7  &kp N8  &kp N9        &kp N0         &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT  &trans
