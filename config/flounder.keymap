@@ -106,26 +106,16 @@
             layers = <0>;
         };
 
-        misc_trigger {
-            bindings = <&mo 4>;
-            key-positions = <32 33>;
-            layers = <0>;
-        };
-
-        ctrl+bksp {
-            bindings = <&kp LC(BACKSPACE)>;
-            key-positions = <16 17>;
-            layers = <0>;
-        };
-
         escape_key {
             bindings = <&kp ESCAPE>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         caps_lock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <20 21 22 23>;
+            layers = <0>;
         };
     };
 
