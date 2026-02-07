@@ -108,7 +108,7 @@
 
         escape_key {
             bindings = <&kp ESCAPE>;
-            key-positions = <7 8>;
+            key-positions = <7 8 9>;
             layers = <0>;
         };
 
