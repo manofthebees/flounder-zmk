@@ -3,7 +3,7 @@ id: flounder
 name: flounder
 type: shield
 url: https://github.com/manofthebees/flounder-zmk
-requires: [nice_nano//zmk]
+requires: [nice_nano_v2]
 features:
   -keys
 siblings:
